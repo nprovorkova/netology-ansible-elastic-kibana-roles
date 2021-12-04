@@ -23,5 +23,12 @@
 ![12_1](imgs/12_1.png)<br>
  ansible-galaxy install -r requirements.yml --force<br>
 ![12_2](imgs/12_2.png)<br>
-
+ansible-playbook -i inventory/prod site.yml<br>
+![12_2](imgs/12_3.png)<br>
+![12_2](imgs/12_4.png)<br>
+![12_2](imgs/12_5.png)<br>
+Elasticsearch работает<br>
 ![12_elastic](imgs/12_elastic.png)<br>
+Kibana работает<br>
+![12_kibana](imgs/12_kibana.png)<br>
+Filebeat не подключается к Kibana, не понятно почему<br>
